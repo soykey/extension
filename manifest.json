@@ -1,0 +1,10 @@
+{
+    "manifest_version": 2,
+    "name": "Add seconds display to twitter.",
+    "version": "0.2.1",
+    "content_scripts": [{
+        "matches": ["://twitter.com/*"],
+        "js": ["index.js"]
+    }],
+    "author": "@tqs0gqre_"
+}
